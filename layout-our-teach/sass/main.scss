@@ -1,0 +1,12 @@
+@import './helper/variable';
+@import './helper/mixin';
+
+@import './Base/reset';
+@import './Base/customize';
+@import './layout/header';
+@import './layout/carousel';
+@import './layout/footer';
+
+@import './Components/button.scss';
+
+@import './pages/home';

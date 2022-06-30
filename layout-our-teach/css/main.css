@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  z-index: 102 !important;
+  background-color: #fff;
+  position: relative;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+}
+
+.collapse .navbar-nav li {
+  padding-right: 50px;
+}
+
+.collapse .navbar-nav li a {
+  color: #191919;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.align-items-center .fa-brands {
+  margin-left: 12px;
+  color: #191919;
+}
+
+header .container .col-4 .btn {
+  background-color: #b61984;
+  color: #fff;
+  transition: all .5s;
+  border-radius: 70px;
+}
+
+header .container .col-4 .btn:hover {
+  background-color: #fff;
+  color: #b61984;
+}
+
+.container_carousel .carousel__item__left {
+  height: auto;
+}
+
+.container_carousel .carousel__item__left .left {
+  height: 50%;
+  position: relative;
+  z-index: 100;
+  padding: 150px 0;
+}
+
+.container_carousel .carousel__item__left .left span {
+  font-weight: bolder;
+  font-size: 16.5px;
+  color: #b61984;
+}
+
+.container_carousel .carousel__item__left .left p {
+  font-size: 57px;
+  color: #191919;
+  font-weight: 700;
+}
+
+.section__carousel {
+  position: relative;
+}
+
+.carousel__img__yellow {
+  position: absolute;
+  top: 0;
+}
+
+.carousel__img__yellow img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__img__violet {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel__img__violet img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .main {
+  position: relative;
+  z-index: 1;
+}
+
+.slider .slider__img__Wave {
+  position: absolute;
+  bottom: 0;
+}
+
+.slider .slider__img__Wave img {
+  background-color: #dcd1f3;
+  width: 100%;
+}
+
+.slider .row .col-12 .item {
+  background-color: #fff;
+  height: max-content;
+  text-align: center;
+}
+
+.slider .row .col-12 .item .info {
+  padding: 20px 0;
+}
+
+.slider .row .info h6 {
+  color: #b61984;
+}
+
+.slider .row .info h3 {
+  font-size: 23.25px;
+}
+
+.slider {
+  background-color: #dcd1f3;
+}
+
+.slider .slider__blank__middle {
+  height: 20px;
+}
+
+.intro .content {
+  position: relative;
+  padding-top: 100px;
+}
+
+.intro .content .container {
+  position: relative;
+  z-index: 1;
+}
+
+.intro .content .intro__img {
+  position: absolute;
+  bottom: 0;
+  height: max-content;
+}
+
+.intro .content .intro__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro input {
+  border-radius: 70px;
+}
+
+.intro select {
+  border-radius: 70px;
+}
+
+.intro textarea {
+  border-radius: 15px;
+}
+
+.intro .content .container .content__item__right label {
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 5px lightgray;
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.intro .content .container .content__item__right label h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.intro .content .container .content__item__right .input .form-row .col {
+  position: relative;
+}
+
+.intro .content .container .content__item__right .input .form-row .col i {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: #b61984;
+  font-weight: 500;
+}
+
+.intro .content .container .content__item__right .input .eng {
+  position: relative;
+}
+
+.intro .content .container .content__item__right .input .eng i {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: #b61984;
+  font-weight: 500;
+}
+
+.intro .content .container .content__item__right .input .form-group {
+  position: relative;
+}
+
+.intro .content .container .content__item__right .input .form-group i {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: #b61984;
+  font-weight: 500;
+}
+
+.intro .content .container .content__item__right .input .btn {
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  border-radius: 70px;
+  background-color: #b61984;
+}
+
+.intro .content .container .content__item__right .input .btn:hover {
+  color: #b61984;
+  background-color: #fff;
+  border: 1px solid #b61984;
+}
+
+.slider .main .row .slider__img {
+  width: 100%;
+  height: 600px;
+  justify-content: space-around;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer .footer__content {
+  background-color: #aa017e;
+  padding: 80px 0;
+  padding-bottom: 180px;
+}
+
+.footer .footer__content .container {
+  position: relative;
+  z-index: 1;
+}
+
+.footer .footer__img__pink {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer .footer__img__pink img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__content .container .row .mb-4 h6 {
+  font-size: 23.25px;
+  font-weight: 600;
+}
+
+.footer__content .container .row .col-md-4 p i {
+  color: #fff;
+  margin-right: 12px;
+}
+
+.footer__content .container .row .newfooter .rounded {
+  margin-top: 20px;
+  background-color: #aa017e;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 70px !important;
+}
+
+.footer__content .container .row .newfooter .btn {
+  border-radius: 70px !important;
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.footer__content .container .row .newfooter .btn:hover {
+  background-color: #aa017e;
+  color: #fff;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
